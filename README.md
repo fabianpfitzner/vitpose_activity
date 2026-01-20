@@ -40,7 +40,7 @@ See `src/vpa_model_architecture.py` and `src/vpa_model.py` for implementation de
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/yourusername/vitpose_activity.git
+git clone https://github.com/fabianpfitzner/vitpose_activity
 cd vitpose_activity
 ```
 
