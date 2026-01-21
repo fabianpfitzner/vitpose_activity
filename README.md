@@ -155,9 +155,8 @@ If you use this work in your research, please cite:
   doi = {https://doi.org/10.1016/j.autcon.2025.106462},
   url = {https://www.sciencedirect.com/science/article/pii/S0926580525005023},
   author = {Fabian Pfitzner and Alexander Braun and André Borrmann and Frédéric Bosché},
-  keywords = {Spatial analysis, Labor productivity, Activity classification, Activity complexity},
-  abstract = {Poor predictability of construction project duration and stagnant labor productivity highlight the need for scalable, data-driven monitoring solutions. This paper investigates how the relationship between activity complexity and duration can be quantified and leveraged. A grid-based spatial analysis is introduced to address this gap, combining BIM-derived complexity metrics for individual components (e.g., slabs) with CV-based as-performed activity classification, demonstrated in the context of rebar installation. The proposed activity classification model, ViTPoseActivity, achieves 97% accuracy in detecting on-site tasks using single-frame posture features. Correlation analysis on real-world construction data covering over 1,900 labor hours confirms a measurable positive relationship between activity complexity and duration. By combining as-designed and as-performed data in a spatial context, this paper provides a foundation for activity duration prediction, supporting proactive planning and future research in data-driven site management.}
-}
+  keywords = {Spatial analysis, Labor productivity, Activity classification, Activity complexity}
+  }
 ```
 
 
