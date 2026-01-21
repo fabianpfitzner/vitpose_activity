@@ -50,7 +50,14 @@ cd docker
 ./build_image.sh
 ```
 
-### Configuration
+### Training
+
+Run training using the Docker container:
+```bash
+./docker/run-train.sh
+```
+
+See `docker/README.md` for detailed configuration options and troubleshooting.
 
 **Data Directory**: By default, the training script expects data at `~/vitpose_activity_data` on your host machine. To use a different location, set the `DATA_DIR` variable when running:
 
@@ -86,16 +93,6 @@ DATASET_NAME = os.getenv('VPA_DATASET', 'your_dataset_name')  # Change 'dataset_
 DATA_DIR="/path/to/your/data" VPA_NUM_EPOCHS=100 VPA_BATCH_SIZE=128 ./docker/run-train.sh
 ```
 
-### Training
-
-Run training using the Docker container:
-
-```bash
-cd docker
-./run-train.sh
-```
-
-See `docker/README.md` for detailed configuration options and troubleshooting.
 
 ## Repository Structure
 
